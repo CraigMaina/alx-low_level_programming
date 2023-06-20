@@ -6,7 +6,7 @@
 int main(void)
 {
   int mstari = 0;
-  while (mstaari < 5)
+  while (mstari < 5)
     {
       printf("_putchar");
 	mstari++;
