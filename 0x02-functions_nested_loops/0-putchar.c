@@ -5,12 +5,25 @@
  */
 int main(void)
 {
-  int mstari = 0;
-  while (mstari < 5)
-    {
-      printf("_putchar");
-	mstari++;
-    }
 
-  return 0;
+int m = 0;
+
+while (m < 5)
+{
+int s = 0;
+while (s < 1)
+{
+	printf("_putchar");
+
+	s++;
+
+}
+
+printf("\n");
+
+m++;
+}
+
+return (0);
+
 }
