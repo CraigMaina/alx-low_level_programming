@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - prints the alphaber ten times
  */
-void print_alphaber_x10(void)
+void print_alphabet_x10(void)
 {
 int count = 0;
 char letter;
