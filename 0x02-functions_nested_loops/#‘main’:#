@@ -1,0 +1,5 @@
+main.c:10:2: error: implicit declaration of function ‘print_alphabet_x10’; did you mean ‘print_alphaber_x10’? [-Werror=implicit-function-declaration]
+   10 |  print_alphabet_x10();
+         |  ^~~~~~~~~~~~~~~~~~
+	       |  print_alphaber_x10
+	       cc1: all warnings being treated as errors0;276;0c
