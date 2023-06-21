@@ -1,29 +1,21 @@
 #include "main.h"
+
 /**
- * main - print _putchar
- * Return: Always 0
- */
+* main- prints _putchar followed by newline.
+* Return: 0 i.e null after successful completion.
+*/
 int main(void)
 {
+int i;
+char a[] = "_putchar";
 
-int m = 0;
+i = 0;
 
-while (m < 5)
+while (i < 8)
 {
-int s = 0;
-while (s < 1)
-{
-	printf("_putchar");
-
-	s++;
-
+_putchar(a[i]);
+i++;
 }
-
-printf("\n");
-
-m++;
-}
-
+_putchar('\n');
 return (0);
-
 }
