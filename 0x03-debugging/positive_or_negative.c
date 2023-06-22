@@ -3,6 +3,8 @@
  * main - Determine if a number is positive, neg or zero
  * 0 ; is the mumber to be checked
  * Return: 0 on success
+ * positive_or_negative - will print the status
+ * i - its the integer
  */
 void positive_or_negative(int i)
 {
